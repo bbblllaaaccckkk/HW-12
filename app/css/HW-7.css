@@ -1,0 +1,178 @@
+
+.container {
+    max-width: 1600px;
+    width: 100%;
+    padding: 0;
+}
+
+header>.container>.row {
+    margin: 0 auto;
+    position: absolute;
+    z-index: 1;
+}
+
+.navbar {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #03d4c8;
+}
+
+.navbar-light .navbar-nav .active .nav-link {
+    color: #03d4c8;
+}
+
+.max {
+    height: 100vh;
+}
+
+.slide h5 {
+    font-size: 32px;
+    color: white;
+}
+
+.slide p {
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+}
+
+.knob a {
+    font-size: 16px;
+    color: #03d4c8;
+    border: 1px solid #03d4c8;
+    padding: 15px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+a:not([href]):not([tabindex]) {
+    color: #03d4c8;
+}
+
+.inner {
+    padding: 160px 0;
+}
+
+.inner p {
+    padding: 30px 0;
+}
+
+
+
+
+/*------------секция с пирамидой-----------*/
+
+.text-1 p {
+    font-size: 14px;
+    color: #413d4b;
+}
+
+.text-1 h2 {
+    font-size: 22px;
+    color: #413d4b;
+}
+
+.text-1 h2,
+p,
+a {
+    padding: 15px;
+    
+}
+
+section .row {
+    padding: 30px 0;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+
+
+
+
+/*----секция с кнопкой play-----*/
+
+.play .container {
+    padding: 200px 0;
+    background-image: url(../images/background-2.png);
+}
+
+.play .container img {
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.play h4 {
+    color: white;
+    font-size: 16px;
+    padding: 30px 0px;
+    max-width: 960px;
+    width: 100vh;
+    font-weight: 600;
+}
+
+
+/*---------секция EXPERTISE (секция с шестью блоками)---------*/
+
+.last h3 {
+    color: #413d4b;
+    font-size: 22px;
+}
+
+.last p {
+    color: #2f2d35;
+    font-size: 14px;
+}
+
+/*сделать линию под заглавным текстом*/
+.last p::after {
+    content: '';
+    position: relative;
+
+
+}
+
+.last {
+    padding: 70px 0 100px 0;
+}
+
+.last h6 {
+    font-weight: 700;
+    font-size: 14px;
+    color: #413d4b;
+}
+
+.last p {
+    font-weight: 14px;
+    color: #333333;
+}
+
+.content-wrapper {
+    border: 1px solid #ebebeb;
+    padding: 40px 30px;
+    
+}
+
+.last .col-md-4 {
+    padding: 0;
+}
+
+.content {
+    margin-top: 30px;
+}
+
